@@ -87,4 +87,28 @@ h3 {
   h3 {
     text-align: center;
   }
+  .contact-me {
+    font-size: 35px;
+  }
+  .email-link {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 476px) {
+  .about-image {
+    max-width: 80%;
+    margin: 0 auto;
+    display: block;
+    padding: 0px;
+  }
+}
+
+@media (max-width: 768px) {
+  .launch-link {
+    text-align: center;
+    margin: auto;
+    display: block;
+    max-width: 70%;
+  }
 }
